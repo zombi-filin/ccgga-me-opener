@@ -1,0 +1,12 @@
+{
+  "name": "ccgga.me opener",
+  "action": {},
+  "manifest_version": 3,
+  "version": "1.0",
+  "description": "Расширение для Chrome открывающий все ссылки на странице ccgga.me в новых вкладках",
+  "host_permissions": ["https://ccgga.me/*"],
+  "permissions": ["tabs", "activeTab", "scripting"],
+  "background": {
+    "service_worker": "service-worker.js"
+  }
+}
